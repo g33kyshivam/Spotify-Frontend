@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>Music Player</title>
+</head>
+
+<body>
+    <header>
+        <div id="player-brand">
+            <div id="player-logo">
+                <img src="https://site-images.similarcdn.com/url?url=https%3A%2F%2Flh3.googleusercontent.com%2FKfeqK6Yc7TuPxWTX-4OZ412FbrxQ81Y-7S5haxUaTsys5Oo2H13cWVd1WAnCAd79LQ%3Ds180&h=7e99ef1301116ac50ef1383f7ea7ce01196332d2c7d33a6e62cab927e224004e"
+                    alt="music-logo" srcset="">
+            </div>
+            <div id="player-name">
+                <h3>Ninja</h3>
+                <h3>Studio</h3>
+            </div>
+            <div class="header-favourite">
+                <p>Favourites</p>
+            </div>
+
+
+        </div>
+
+        <div id="player-profile">
+            <div class="player-search flex align-center">
+                                <label for="search-box"></label>
+                                <input type="search" name="search-item" id="search-box" placeholder=" &#xf002;   Search">
+                                <span><i class="fas fa-microphone-alt"></i></span>
+            </div>
+
+
+
+            <span id="header-notification">
+                <i class="fas fa-bell fa-lg"></i>
+
+            </span>
+
+            <div id="profile-photo">
+                <img src="https://avatars2.githubusercontent.com/u/24518185?s=460&v=4" alt="profile-picture" srcset="">
+            </div>
+
+
+        </div>
+
+
+    </header>
+    <main>
+        <section id="main-website">
+            <div class="carousel flex justify-between align-center">
+                <div id="image-one" class="carousel-image">
+                    <img src="https://i.kfs.io/playlist/global/61510684v1/fit/500x500.jpg" alt="" srcset="">
+                </div>
+                <div id="image-two" class="carousel-image">
+                    <img src="https://static1.squarespace.com/static/577f043bff7c50451be1fbde/t/59dc17eb03596ed02a2330ce/1507596324492/Neon-Vibes-Phoebe+Sinclair-Artist-Curated-Spotify-Playlist-Cover.jpg"
+                        alt="" srcset="">
+                </div>
+                <div id="image-three" class="carousel-image">
+                    <img src="https://pbs.twimg.com/media/CwcT0S9VQAALQ-_.jpg" alt="" srcset="">
+                </div>
+                <!-- <div class="carousel-nav ">
+                    <a href="#image-one" class="dot "></a>
+                    <a href="#image-two" class="dot "></a>
+                    <a href="#image-three" class="dot "></a>
+                </div> -->
+
+            </div>
+
+            <div id="music-release" class="mt-20">
+                <h3 class="sub-heading">Latest Release</h3>
+                <div class="music-release-gallery flex flex-wrap">
+                    <div class="latest-music-content flex">
+                        <div class="latest-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="latest-music-info">
+                            <ul class="music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+                        <div class="latest-music-side flex flex-column align-center">
+                            <div class="circle">
+                                <a href="" class="dot "></a>
+                                <a href="" class="dot "></a>
+                                <a href="" class="dot "></a>
+                            </div>
+                            <h5>4:44</h5>
+
+                        </div>
+
+                    </div>
+
+                    <div class="latest-music-content flex">
+                        <div class="latest-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="latest-music-info">
+                            <ul class="music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+                        <div class="latest-music-side flex flex-column align-center">
+                            <div class="circle">
+                                <a href="" class="dot "></a>
+                                <a href="" class="dot "></a>
+                                <a href="" class="dot "></a>
+                            </div>
+                            <h5>4:44</h5>
+
+                        </div>
+
+                    </div>
+                    <div class="latest-music-content flex">
+                        <div class="latest-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="latest-music-info">
+                            <ul class="music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+                        <div class="latest-music-side flex flex-column align-center">
+                            <div class="circle">
+                                <a href="" class="dot "></a>
+                                <a href="" class="dot "></a>
+                                <a href="" class="dot "></a>
+                            </div>
+                            <h5>4:44</h5>
+
+                        </div>
+
+                    </div>
+                    <div class="latest-music-content flex">
+                        <div class="latest-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="latest-music-info">
+                            <ul class="music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+                        <div class="latest-music-side flex flex-column align-center">
+                            <div class="circle">
+                                <a href="" class="dot "></a>
+                                <a href="" class="dot "></a>
+                                <a href="" class="dot "></a>
+                            </div>
+                            <h5>4:44</h5>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- TODO : Check Layout -->
+
+            <div id="artist" class="mt-35">
+                <h3 class="sub-heading">Popular Artist</h3>
+                <div class="artist-gallery mt-20 flex justify-evenly">
+                    <div class="artist-content">
+                        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/arianagrande-45821052-1827396914060929-3893436693898178963-n-1546451474.jpg"
+                            alt="" srcset="">
+                        <h4>Kelly Clarkson</h4>
+                    </div>
+                    <div class="artist-content">
+                        <img src="https://pbs.twimg.com/profile_images/1047157466017017861/0q7hpSFe_400x400.jpg" alt=""
+                            srcset="">
+                        <h4>Eminem</h4>
+                    </div>
+
+                    <div class="artist-content">
+                        <img src="https://data.whicdn.com/images/310690599/large.jpg" alt="" srcset="">
+                        <h4>Zayn</h4>
+                    </div>
+
+                    <div class="artist-content">
+                        <img src="https://yt3.ggpht.com/a-/AAuE7mDz-oLF-ESh23EImNbCR5dD-LJDB30eZmcaTg=s900-mo-c-c0xffffffff-rj-k-no"
+                            alt="" srcset="">
+                        <h4>Kendrick Lamar</h4>
+                    </div>
+
+                    <div class="artist-content">
+                        <img src="https://i.scdn.co/image/aa32d6d4ca2467974403518dd3ebfe8831c5ced1" alt="" srcset="">
+                        <h4>Bruno Mars</h4>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div id="music-station" class="flex justify-between align-center">
+                <div class="station-content">
+                    <div class="box1 box">
+
+                    </div>
+                    <div class="box2 box">
+
+                    </div>
+                    <div class="box3 box">
+
+                    </div>
+
+                    <h4>Stations</h4>
+                </div>
+                <div class="station-content">
+                    <img src="https://i.ytimg.com/vi/NiIiRGP4g7s/maxresdefault.jpg" alt="" srcset="">
+                    <h4>Love</h4>
+                </div>
+
+                <div class="station-content">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD8506mzgHH58sMV7X6HCWJa-pAOP6PbobEKdEbwLBS2w_Xwd_5Q"
+                        alt="" srcset="">
+                    <h4>Retro</h4>
+                </div>
+
+                <div class="station-content">
+                    <img src="https://www.magneticmag.com/.image/t_share/MTMzMDU4NDI1NTk1Njg2ODgy/top-tropical-house--chill-music-week-46----new-electronic-music.jpg"
+                        alt="" srcset="">
+                    <h4>Chill</h4>
+                </div>
+
+                <div class="station-content">
+                    <img src="https://jacobsmedia.com/wp-content/uploads/2016/05/rock-n-roll.jpg" alt="" srcset="">
+                    <h4>Rock</h4>
+                </div>
+                <div class="station-content">
+                    <img src="https://popgoestheweek.com/wp-content/uploads/2018/04/ArianaCover.jpg" alt="" srcset="">
+                    <h4>Pop</h4>
+                </div>
+
+
+
+            </div>
+            <div id="music-club" class="flex justify-between align-center">
+                <div class="club-content">
+                    <img src="https://i.ytimg.com/vi/U6KnXJeK0lg/maxresdefault.jpg" alt="" srcset="">
+                    <h4>Party</h4>
+                </div>
+
+                <div class="club-content">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD8506mzgHH58sMV7X6HCWJa-pAOP6PbobEKdEbwLBS2w_Xwd_5Q"
+                        alt="" srcset="">
+                    <h4>Electronic</h4>
+                </div>
+
+                <div class="club-content">
+                    <img src="https://www.magneticmag.com/.image/t_share/MTMzMDU4NDI1NTk1Njg2ODgy/top-tropical-house--chill-music-week-46----new-electronic-music.jpg"
+                        alt="" srcset="">
+                    <h4>Road Trip</h4>
+                </div>
+            </div>
+
+
+
+
+            <div id="latest-english" class="mt-35">
+                <h3 class="sub-header">Latest English</h3>
+                <div class="english-gallery flex justify-evenly">
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="https://images.rapgenius.com/8a1f37f1e91a1d6733ca773443d5dc11.1000x1000x1.png"
+                                alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="https://m.media-amazon.com/images/I/81y-OpH6cnL._SS500_.jpg" alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="https://is5-ssl.mzstatic.com/image/thumb/Music49/v4/72/1c/bd/721cbdbd-2b79-bab0-45a2-382c531984ec/8718857083320.png/200x0w.jpg"
+                                alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div id="latest-english" class="mt-35">
+                <h3 class="sub-header">Latest Hindi</h3>
+                <div class="english-gallery flex justify-evenly">
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="https://images.rapgenius.com/8a1f37f1e91a1d6733ca773443d5dc11.1000x1000x1.png"
+                                alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="https://m.media-amazon.com/images/I/81y-OpH6cnL._SS500_.jpg" alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="https://is5-ssl.mzstatic.com/image/thumb/Music49/v4/72/1c/bd/721cbdbd-2b79-bab0-45a2-382c531984ec/8718857083320.png/200x0w.jpg"
+                                alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="english-gallery-content flex flex-column">
+                        <div class="english-music-gallery-image">
+                            <img src="assets/onism.jpg" alt="">
+                        </div>
+                        <div class="english-music">
+                            <ul class="english-music-info">
+                                <li>Onism</li>
+                                <li>AUG 11,2017</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <section id="sidebar">
+            <div class="sidebar-heading flex justify-between align-center">
+                <h3>Queue</h3>
+
+                <div class="queue-dropdown-menue flex align-center">
+                    <h4>Queue</h4>
+                    <span><a href="#dropdown-box"><i class="fas fa-angle-down"></i></a></span>
+                    <div class="queue-dropdown-box absolute" id="dropdown-box">
+                        <ul class="dropdown-links">
+                            <li><a href="/playlist.html">Playlist</a></li>
+                            <li><a href="" target="_blank" rel="noopener noreferrer">Favourite Song</a></li>
+                        </ul>
+        
+        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="queue-list  mt-20 flex justify-center">
+                <ol class="queue-unordered-list">
+                    <li>
+                        <div class="queue-list-item-container">
+                                <div class="queue-list-item flex">
+                                        <div class="queue-list-item-image">
+                                            <img src="assets/onism.jpg" alt="">
+                                        </div>
+                                        <div class="latest-music-info">
+                                            <ul class="music-info">
+                                                <li>Onism</li>
+                                                <li>AUG 11,2017</li>
+                                            </ul>
+                                        </div>
+                                        <div class="sidebar-icon">
+                                            <span><i class="far fa-heart"></i></span>
+                                        </div>
+                                </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                            <div class="queue-list-item-container">
+                                    <div class="queue-list-item flex">
+                                            <div class="queue-list-item-image">
+                                                <img src="assets/onism.jpg" alt="">
+                                            </div>
+                                            <div class="latest-music-info">
+                                                <ul class="music-info">
+                                                    <li>Onism</li>
+                                                    <li>AUG 11,2017</li>
+                                                </ul>
+                                            </div>
+                                            <div class="sidebar-icon">
+                                                <span><i class="far fa-heart"></i></span>
+                                            </div>
+                                    </div>
+    
+                            </div>
+                    </li>
+                        <li>
+                                <div class="queue-list-item-container">
+                                        <div class="queue-list-item flex">
+                                                <div class="queue-list-item-image">
+                                                    <img src="assets/onism.jpg" alt="">
+                                                </div>
+                                                <div class="latest-music-info">
+                                                    <ul class="music-info">
+                                                        <li>Onism</li>
+                                                        <li>AUG 11,2017</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="sidebar-icon">
+                                                    <span><i class="far fa-heart"></i></span>
+                                                </div>
+                                        </div>
+        
+                                </div>
+                        </li>
+                </ol>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer-conainter flex ">
+            <div class="footer-profile flex align-center">
+                <div class="footer-image">
+                    <img src="/assets/john.jpg" alt="">
+
+                </div>
+                <div class="footer-music-detail">
+                    <h4>Imagine by John</h4>
+                    <h6>John Lenon</h6>
+
+                </div>
+                <div class="footer-left-icon">
+                    <span><i class="far fa-heart"></i></span>
+                    <span><i class="fas fa-ban"></i></span>
+
+
+                </div>
+
+            </div>
+
+            <div class="footer-control flex flex-column align-center justify-center">
+                <div class="player-icons flex align-center justify-evenly">
+                    <span><i class="fas fa-random fa-lg"></i></span>
+                    <span><i class="fas fa-step-backward fa-lg"></i></span>
+                    <span><i class="far fa-pause-circle fa-2x"></i></span>
+                    <span><i class="fas fa-step-forward fa-lg"></i></span>
+                    <span><i class="fas fa-sync-alt fa-lg"></i></span>
+
+                </div>
+                <div class="player-icons-two flex align-center justify-evenly ">
+                    <span class="player-timing">1:39</span>
+                    <div id="slider-background">
+                        <div id="slider-front">
+
+                        </div>
+
+                    </div>
+                    <span class="player-timing">1:39</span>
+
+
+
+                </div>
+
+            </div>
+
+            <div class="footer-sub-control flex align-center justify-between">
+                <span><i class="fas fa-home"></i></span>
+                <span><i class="fas fa-volume-up"></i></span>
+                <span><i class="fas fa-desktop"></i></span>
+
+                <div id="small-slider-background">
+                    <div id="small-slider-front">
+                    </div>
+                </div>
+                <span><i class="fas fa-external-link-alt"></i></span>
+
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
