@@ -1,6 +1,14 @@
-Here in this there is no crazy animation, just one animation when you hover over the queue. it shows two option , one is playlist and other. Click on playlist, it would redirect to playlist option.
+- [x] Responsive
+- [x] No External Library
+- [x] Proper Comments
+- [x] CSS Animation
 
-I have writtten media querie when the screen size is small the sidebar is removed and the main section gets a width of 100%.
+## Home Screen
+![](./images/home.PNG)
 
+![](./images/home_2.PNG)
+
+## Playlist
+![](./images/playlist.png)
 
 
